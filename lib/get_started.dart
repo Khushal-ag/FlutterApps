@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'login.dart';
-import 'cert.dart';
 
 class getStarted extends StatelessWidget {
   const getStarted({Key? key}) : super(key: key);

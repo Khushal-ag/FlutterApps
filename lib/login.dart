@@ -64,18 +64,18 @@ class _LoginPageState extends State<LoginPage> {
                           setState(() {
                             if (nameController.text.isEmpty) {
                               nameError =
-                                  "Field should not be blank in Name field";
+                              "Field should not be blank in Name field";
                             } else if (emailController.text.isEmpty) {
                               emailError =
-                                  "Field should not be blank in Email field";
+                              "Field should not be blank in Email field";
                             } else {
                               nameError = null;
                               emailError = null;
                               Navigator.push(context,
                                   MaterialPageRoute(builder: (context) {
-                                return CertificatePage(
-                                    Name: nameController.text.toString());
-                              }));
+                                    return CertificatePage(
+                                        Name: nameController.text.toString());
+                                  }));
                             }
                           });
                         },
