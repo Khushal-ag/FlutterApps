@@ -57,7 +57,7 @@ class CertificatePage extends StatelessWidget {
               height: 5,
             ),
             Text("Pankaj Kapoor",
-                style: TextStyle(color: Colors.black54, fontSize: 20)),
+                style: TextStyle(color: Colors.black54, fontSize: 22)),
             SizedBox(
               height: 40,
             ),
@@ -66,7 +66,7 @@ class CertificatePage extends StatelessWidget {
               children: [
                 Text(
                     "Date:${todayDate.day}-${todayDate.month}-${todayDate.year}",
-                    style: TextStyle(fontSize: 20))
+                    style: TextStyle(fontSize: 22))
               ],
             )
           ],
